@@ -1,0 +1,36 @@
+Status: FAILED
+Time Taken: 196
+Size: 0
+Timestamp: Mon Dec 21 13:28:03 PST 2015
+TestStep: Vertex-Req
+
+----------------- Messages ------------------------------
+org.apache.xmlbeans.impl.values.XmlValueOutOfRangeException: string value 'No Authorization' is not a valid enumeration value for type of authType element in Credentials in namespace http://eviware.com/soapui/config
+
+----------------- Properties ------------------------------
+Endpoint: https://hottopic.ondemand.vertexinc.com:443/vertex-ws/services/CalculateTax70
+Username: test_tthomas
+domain: hottopic.com
+Encoding: UTF-8
+Password: Aspire@1
+
+---------------- Request ---------------------------
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xalan="http://xml.apache.org/xalan" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <vertex:VertexEnvelope xmlns:vertex="urn:vertexinc:o-series:tps:7:0">
+         <Login>
+            <TrustedId>${#Project#TrustedId}</TrustedId>
+         </Login>
+         <QuotationRequest transactionType="SALE" documentDate="2015-05-08 14:46" documentNumber="29017">
+            <Seller>
+               <Company>${#Project#Company}</Company>
+            </Seller>
+            ${#TestSuite#reqFinal}
+         </QuotationRequest>
+      </vertex:VertexEnvelope>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+- missing response / garbage collected -

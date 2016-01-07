@@ -1,0 +1,10 @@
+Status: FAILED
+Time Taken: 151
+Size: 0
+Timestamp: Mon Dec 21 11:54:26 PST 2015
+TestStep: Script-SetUp Request
+Error:java.lang.NumberFormatException: For input string: ""
+
+----------------- Messages ------------------------------
+java.lang.NumberFormatException: For input string: ""
+error at line: 5

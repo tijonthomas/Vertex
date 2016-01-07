@@ -1,0 +1,25 @@
+2016-01-07 14:26:03,424 INFO  [SoapUI] Adding [C:\Cucumber_Learn\Vertex_Tax_Calc\target\1.0-1.0-SNAPSHOT.jar] to extensions classpath
+2016-01-07 14:26:03,832 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\tthomas\soapui-settings.xml]
+2016-01-07 14:26:04,326 WARN  [SoapUIProGroovyScriptEngineFactory] Missing scripts folder [C:\Cucumber_Learn\Vertex_Tax_Calc\src\main\groovy]
+2016-01-07 14:26:05,158 INFO  [WsdlProject] Loaded project from [file:/C:/Cucumber_Learn/Vertex_Tax_Calc/src/test/Vertex-All-soapui-project.xml]
+2016-01-07 14:26:05,282 WARN  [SoapUIProGroovyScriptEngineFactory] Missing scripts folder [C:\Cucumber_Learn\Vertex_Tax_Calc\src\main\groovy]
+2016-01-07 14:26:05,680 INFO  [SoapUIProTestCaseRunner] Setting project property [brand] to [HT]
+2016-01-07 14:26:05,680 INFO  [SoapUIProTestCaseRunner] Setting project property [ItemCount] to [2]
+2016-01-07 14:26:05,681 INFO  [SoapUIProTestCaseRunner] Running soapUI tests in project [Vertex_Tax_Calc]
+2016-01-07 14:26:05,685 INFO  [SoapUIProTestCaseRunner] Running Project [Vertex_Tax_Calc], runType = SEQUENTIAL
+2016-01-07 14:26:06,422 INFO  [SoapUIProTestCaseRunner] Running soapUI testcase [TestCase 1]
+2016-01-07 14:26:06,454 INFO  [SoapUIProTestCaseRunner] running step [Script-SetUp Request]
+2016-01-07 14:26:06,556 INFO  [SoapUIProTestCaseRunner] running step [Vertex-Req]
+2016-01-07 14:26:08,151 INFO  [log] Cart Price === SubTotal =46.8 & Total =51.01 & Tax =4.21
+2016-01-07 14:26:08,153 INFO  [log] Item Prices ===
+2016-01-07 14:26:08,186 INFO  [log] Tax for item #0 of Price 9.3 and type CLT is 0.82
+2016-01-07 14:26:08,195 INFO  [log] Tax for item #1 of Price 37.5 and type CLT is 3.39
+2016-01-07 14:26:08,195 INFO  [log] ******************************************************************************************
+2016-01-07 14:26:08,290 INFO  [SoapUIProTestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2016-01-07 14:26:08,291 INFO  [SoapUIProTestCaseRunner] Assertion [SOAP Response] has status VALID
+2016-01-07 14:26:08,291 INFO  [SoapUIProTestCaseRunner] Assertion [Script-Assert [Cart&Item Tax]] has status VALID
+2016-01-07 14:26:08,291 INFO  [SoapUIProTestCaseRunner] Assertion [Script-Assert [Item Tax]] has status UNKNOWN
+2016-01-07 14:26:08,291 INFO  [SoapUIProTestCaseRunner] Assertion [Script-Assert [Address & Company]] has status VALID
+2016-01-07 14:26:08,292 INFO  [SoapUIProTestCaseRunner] Finished running soapUI testcase [TestCase 1], time taken: 1825ms, status: FINISHED
+2016-01-07 14:26:08,343 INFO  [SoapUIProTestCaseRunner] Project [Vertex_Tax_Calc] finished with status [FINISHED] in 2608ms
+2016-01-07 14:26:09,047 INFO  [SoapUIProTestCaseRunner] Created report at file:/C:/Cucumber_Learn/Vertex_Tax_Calc/target/soapui/Vertex/index.html

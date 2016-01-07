@@ -1,0 +1,18 @@
+2015-12-21 12:08:32,597 INFO  [log] properties set HT
+2015-12-21 13:22:41,063 INFO  [log] properties set Brand = hottopic, TrustedId = $tr.Jib7eNBD
+2015-12-21 13:28:03,043 INFO  [log] properties set Brand = hottopic, TrustedId = $tr.Jib7eNBD
+2015-12-21 13:42:27,559 INFO  [log] Cart Price === SubTotal =51.9 & Total =56.83 & Tax =4.93
+2015-12-21 13:42:27,560 INFO  [log] Item Prices ===
+2015-12-21 13:42:27,597 INFO  [log] Tax for item #0 of Price 12.4 and type CLT is 1.16
+2015-12-21 13:42:27,605 INFO  [log] Tax for item #1 of Price 39.5 and type CLT is 3.77
+2015-12-21 13:42:27,606 INFO  [log] ******************************************************************************************
+2015-12-21 13:44:29,723 INFO  [log] Cart Price === SubTotal =51.9 & Total =56.83 & Tax =4.93
+2015-12-21 13:44:29,723 INFO  [log] Item Prices ===
+2015-12-21 13:44:29,862 INFO  [log] Tax for item #0 of Price 12.4 and type CLT is 1.16
+2015-12-21 13:44:29,870 INFO  [log] Tax for item #1 of Price 39.5 and type CLT is 3.77
+2015-12-21 13:44:29,870 INFO  [log] ******************************************************************************************
+2016-01-07 14:26:08,151 INFO  [log] Cart Price === SubTotal =46.8 & Total =51.01 & Tax =4.21
+2016-01-07 14:26:08,153 INFO  [log] Item Prices ===
+2016-01-07 14:26:08,186 INFO  [log] Tax for item #0 of Price 9.3 and type CLT is 0.82
+2016-01-07 14:26:08,195 INFO  [log] Tax for item #1 of Price 37.5 and type CLT is 3.39
+2016-01-07 14:26:08,195 INFO  [log] ******************************************************************************************
